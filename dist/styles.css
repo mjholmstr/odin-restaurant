@@ -11,6 +11,8 @@
     height: 100vh;
     background-color: beige;
     background-size: cover;
+    background: url("img/jay-wennington-N_Y88TWmGwA-unsplash.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
