@@ -1,6 +1,6 @@
 
-import { createHtmlElement } from "./add-to-content.js";
-import { $content } from "./index"
+import { createHtmlElement, mainContent} from "./add-to-content.js";
+// import { $content } from "./index"
 
 function render() {
     
@@ -13,7 +13,7 @@ function render() {
     
     $nav.appendChild(navItemList)
 
-    //$content.appendChild($nav)
+    mainContent.appendChild($nav)
     console.log($nav)
     console.log(navItemList)
 }

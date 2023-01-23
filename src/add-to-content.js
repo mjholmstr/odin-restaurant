@@ -1,4 +1,4 @@
-
+export const mainContent = document.getElementById("content");
 
 function createHtmlElement (tagType, id, classArray, content) {
     const element = document.createElement(tagType);
