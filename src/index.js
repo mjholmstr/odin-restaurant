@@ -3,6 +3,7 @@ import { createHtmlElement, mainContent } from "./add-to-content";
 import { renderNav } from "./navbar";
 import { renderFooter } from "./footer";
 import { renderHome } from "./home";
+import { renderMenu } from "./menu";
 
 
 //const $content = document.getElementById("content");
@@ -16,4 +17,11 @@ function home() {
 
 }
 
-home();
+function menu() {
+    mainContent.innerHTML = "";
+    renderNav();
+    renderMenu();
+    renderFooter();
+}
+
+menu();
