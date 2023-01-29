@@ -32,4 +32,12 @@ function about() {
     renderFooter();
 }
 
-about();
+home();
+
+document.addEventListener("click", (e) => {
+    const target = e.target.innerText;
+
+    if(target === "HOME") home();
+    if (target === "MENU" || target === "SEE OUR MENU") menu();
+    if ( target === "ABOUT") about();
+});

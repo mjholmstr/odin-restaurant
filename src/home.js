@@ -15,7 +15,7 @@ function render () {
         "button", 
         null,
         null,
-        "See our menu"
+        "SEE OUR MENU"
     );
 
     main.appendChild(restaurantName);
