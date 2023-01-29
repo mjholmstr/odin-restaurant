@@ -4,6 +4,7 @@ import { renderNav } from "./navbar";
 import { renderFooter } from "./footer";
 import { renderHome } from "./home";
 import { renderMenu } from "./menu";
+import { renderAbout } from "./about";
 
 
 //const $content = document.getElementById("content");
@@ -24,4 +25,11 @@ function menu() {
     renderFooter();
 }
 
-menu();
+function about() {
+    mainContent.innerHTML = "";
+    renderNav();
+    renderAbout();
+    renderFooter();
+}
+
+about();
